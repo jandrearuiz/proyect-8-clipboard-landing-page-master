@@ -1,0 +1,30 @@
+.button {
+  text-decoration: none;
+  display: flex;
+  color: var(--c-white);
+  padding: 20px;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 35px;
+  margin-top: 20px;
+  
+
+  &:first-child {
+    background: var(--c-cyan);
+    box-shadow: 1px 1px 2px 2px var(--c-darkcyan);
+
+    &:hover {
+      background: var(--c-lightcyan);
+    }
+  }
+
+  &:last-child {
+    background: var(--c-blue);
+    box-shadow: 1px 1px 2px 2px var(--c-darkblue);   
+
+    &:hover {
+      background: var(--c-lightblue);
+    }
+  }
+  
+}

@@ -1,0 +1,10 @@
+.head {
+  background-image: url(/assets/images/bg-header-mobile.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+
+  &__logo {
+    margin: 90px 0 30px;
+  }
+}

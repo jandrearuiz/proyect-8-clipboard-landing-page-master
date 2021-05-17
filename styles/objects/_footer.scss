@@ -1,0 +1,17 @@
+.footer {
+  background: var(--c-gray);
+  padding: 60px 0;
+
+  &__logo {
+    width: 15%;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    margin-top: 18px;
+  }
+}
