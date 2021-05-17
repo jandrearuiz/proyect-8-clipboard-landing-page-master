@@ -1,9 +1,15 @@
 .social {
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
 
   &__link {
     padding: 5px;
+    margin: 0 10px;
+  }
+
+  @media (min-width: $medium) {
+    align-self: flex-end;
   }
 }

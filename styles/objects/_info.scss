@@ -1,12 +1,10 @@
-.buttons {
-  padding: 10px;
-  margin-top: 30px;
+.info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   @media (min-width: $medium) {
-    justify-content: space-evenly;
-    align-items: center;
     flex-direction: inherit;
+    text-align: left;
   }
 }

@@ -25,6 +25,10 @@
     &:hover {
       background: var(--c-lightblue);
     }
+  }  
+
+  @media (min-width: $medium) {
+    padding: 10px 20px;
+    min-width: 30%;
   }
-  
 }

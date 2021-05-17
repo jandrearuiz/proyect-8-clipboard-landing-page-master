@@ -7,4 +7,8 @@
   &__logo {
     margin: 90px 0 30px;
   }
+
+  @media (min-width: 768px) {
+    background-image: url(/assets/images/bg-header-desktop.png);
+  }
 }
