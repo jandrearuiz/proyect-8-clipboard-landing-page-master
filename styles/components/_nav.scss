@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    text-decoration: none;
+    margin: 10px 0;
+    color: var(--c-dark);
+
+    &:hover {
+      color: var(--c-cyan);
+    }
+
+    @media (min-width: $medium) {
+      margin: 0 30px;
+    }
+  }
+
+  @media (min-width: $medium) {
+    flex-direction: inherit;
+    text-align: left;
+  }
+}

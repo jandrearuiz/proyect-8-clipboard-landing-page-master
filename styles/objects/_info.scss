@@ -6,5 +6,10 @@
   @media (min-width: $medium) {
     flex-direction: inherit;
     text-align: left;
+    transform: translate(-70px);
+  }
+
+  @media (min-width: $large) {
+    transform: translate(-165px);
   }
 }

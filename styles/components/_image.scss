@@ -3,14 +3,12 @@
   margin-top: 60px;
   align-self: center;
 
-  &.desktop {
-
-    @media (min-width: $medium) {
-      min-width: 580px;
-    }
-  }
-
   @media (min-width: $medium) {
     margin-right: 40px;
+    min-width: 580px;
+  }
+
+  @media (min-width: $large) {
+    max-width: 900px;
   }
 }
